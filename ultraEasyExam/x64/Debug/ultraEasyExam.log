@@ -1,0 +1,36 @@
+﻿  main.cpp
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(13,21): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(19,21): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(27,21): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(36,21): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(52,21): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(76,20): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(77,22): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\Misha\source\repos\ultraEasyExam\vector.h(135,22): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "main.cpp")
+      C:\Users\Misha\source\repos\ultraEasyExam\vector.h(135,22):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(10,31):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "collections::vector<receipt>"
+          C:\Users\Misha\source\repos\ultraEasyExam\vector.h(120,8):
+          во время компиляции функции-члена класс шаблон "void collections::vector<receipt>::setCapacity(const collections::uint)"
+              C:\Users\Misha\source\repos\ultraEasyExam\vector.h(161,21):
+              см. первую ссылку на "collections::vector<receipt>::setCapacity" в "collections::vector<receipt>::pushBack"
+              C:\Users\Misha\source\repos\ultraEasyExam\receiptVector.h(46,26):
+              см. первую ссылку на "collections::vector<receipt>::pushBack" в "receiptVector::addReceipt"
+  
+  ultraEasyExam.vcxproj -> C:\Users\Misha\source\repos\ultraEasyExam\x64\Debug\ultraEasyExam.exe

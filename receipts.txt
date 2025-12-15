@@ -1,0 +1,16 @@
+[
+    {
+        "bought_dessert": true,
+        "date": {
+            "day": 6,
+            "hour": 0,
+            "minute": 0,
+            "month": 5,
+            "year": 1991
+        },
+        "id": "UAJkuDwo14",
+        "name": "Beer",
+        "price_of_one": 10.0,
+        "quantity": 5
+    }
+]
