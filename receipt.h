@@ -76,10 +76,11 @@ void to_json(json& j, const receipt& rec) {
 }
 
 void from_json(const json& j, receipt& rec) {
-    rec.setId(j.at("id").get<int>());
+    rec.setId(j.at("id").get<string>());
     rec.setName(j.at("name").get<string>());
-    rec.setPriceOfOneCup(j.at("priceOfOneCup").get<float>());
+    rec.setPriceOfOneCup(j.at("price_of_one").get<float>());
     rec.setQuantity(j.at("quantity").get<int>());
     rec.setDate(j.at("date").get<dateTime>());
-    rec.setBoughtDessert(j.at("boughtDessert").get<bool>());
+    rec.setBoughtDessert(j.at("bought_dessert").get<bool>());
 }
+
